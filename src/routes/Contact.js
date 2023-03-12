@@ -18,7 +18,7 @@ export const Contact = () => {
               text={
                   <p style={styles}>
                       To learn more about our services or to request a quote, <br></br>
-                      please visit our website or contact our customer service <br></br>
+                      please contact our customer service <br></br>
                       team at [phone number] or [email address].
                   </p>
               }
