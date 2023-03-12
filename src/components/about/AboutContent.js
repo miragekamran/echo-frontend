@@ -2,17 +2,23 @@ import "./AboutContentStyles.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-import React1 from "../../assets/react1.jpg"
-import React2 from "../../assets/react2.webp"
+import React2 from "../../assets/react1.jpg"
+import React1 from "../../assets/react2.jpg"
 
 export const AboutContent = () => {
 
 
-    return(
+    return (
         <div className="about">
             <div className="left">
-                <h1>Whi Am I ?</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <h1>Who We Are?</h1>
+                <p>
+                    EchoLineTransfer Trucking Company is a leading provider of freight
+                    transportation services, specializing in the movement of
+                    goods across various regions using a fleet of trucks, and
+                    offering warehousing, distribution, and logistics services
+                    to its clients
+                </p>
                 <Link to="/contact">
                     <button className="btn">Contact</button>
                 </Link>
@@ -21,16 +27,16 @@ export const AboutContent = () => {
             <div className="right">
                 <div className="img-container">
                     <div className="img-stack top">
-                        <img src={React1} className="img" alt="true"/>
+                        <img src={React1} className="img" alt="true" />
                     </div>
 
                     <div className="img-stack bottom">
-                        <img src={React2} className="img" alt="true"/>
+                        <img src={React2} className="img" alt="true" />
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 
 
 

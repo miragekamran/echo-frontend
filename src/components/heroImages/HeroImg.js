@@ -6,24 +6,24 @@ import { Link } from "react-router-dom";
 
 export const HeroImg = () => {
   return (
-    <div className="hero">
-      <div className="mask">
-        <img className="into-img" src={IntroImg} alt='Hero Image' />
-      </div>
+      <div className="hero">
+          <div className="mask">
+              <img className="into-img" src={IntroImg} alt="Hero Image" />
+          </div>
 
-      <div className="content">
-        <p>HI, I'M A FREELANCER.</p>
-        <h1>React Developer</h1>
-        <div>
-          <Link to="/project" className="btn">
-            Projects
-          </Link>
-          <Link to="/contact" className="btn btn-light">
-            Contact
-          </Link>
-        </div>
+          <div className="content">
+              <p>Delivering your world with speed and reliability.</p>
+              <h1>EchoLineTransfer</h1>
+              <div>
+                  <Link to="/services" className="btn">
+                      Services
+                  </Link>
+                  <Link to="/contact" className="btn btn-light">
+                      Contact
+                  </Link>
+              </div>
+          </div>
       </div>
-    </div>
   );
 };
 

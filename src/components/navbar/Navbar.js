@@ -2,6 +2,7 @@ import "./NavbarStyles.css";
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import lightlogo from "../../assets/EchoLine_dark.png";
 
 export const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -21,7 +22,7 @@ export const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>Portfolio</h1>
+        <img className="logo" src={lightlogo} alt="Logo"></img>
       </Link>
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -30,7 +31,7 @@ export const Navbar = () => {
         </li>
 
         <li>
-          <Link to="/project">Project</Link>
+          <Link to="/services">Services</Link>
         </li>
 
         <li>

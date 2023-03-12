@@ -9,6 +9,12 @@
     z-index: 10;
 }
 
+.logo {
+    display: flex;
+    height: 100px;
+    padding: 8px;
+}
+
 .header-bg {
 background-color: rgba(0, 0, 0, 0.85);
 transition: 0.5s;
