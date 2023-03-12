@@ -23,15 +23,26 @@
 }
 
 .project-title {
+    
     color: #fff;
     padding: 1rem 0;
 }
 
 .pro-details p {
 
+    
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
+}
+
+
+
+.pro-btns .btn {
+    
+    display: block;
+    width: 80%;
+    margin: auto;
 }
 
 .pro-btns {
@@ -40,12 +51,6 @@
     font-weight: 600;
     padding: 1rem 0;
 
-}
-
-.pro-btns .btn {
-    display: block;
-    width: 80%;
-    margin: 2rem auto;
 }
 
 @media screen and (max-width:740px) {
